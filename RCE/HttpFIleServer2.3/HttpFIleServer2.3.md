@@ -2,12 +2,6 @@
 
 <https://www.exploit-db.com/exploits/39161>
 
-
-
- <iframe src=".\HttpFIleServerRCE.py" frameborder="0" allowfullscreen="true" style="background-color: white" > </iframe>
-
-
-
 after decode the whole exploit, we can see
 
 ~~~~python
