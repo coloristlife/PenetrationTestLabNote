@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/ -->
+<html lang="en-US" class="language-en is-ltr history placeholder wf-ptserif-n4-active wf-ptserif-i4-active wf-ptserif-n7-active wf-ptserif-i7-active wf-active" data-marks="post-73190" slick-uniqueid="3"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link rel="stylesheet" id="enlighter-local-css" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/EnlighterJS.min.css" type="text/css" media="all">
+<link rel="manifest" href="https://hostadvice.com/manifest.json">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/jojicnfhgajfeddfalfahidfeicmmdgo">
+<title>How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server | HostAdvice</title>
+<link href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" rel="canonical">
+<link href="https://www.facebook.com/hostadvice/" rel="publisher">
+<link type="image/x-icon" href="https://hostadvice.com/favicon.png?v=4" rel="shortcut icon">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width">
+<meta property="fb:app_id" content="1620716398209793">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server | HostAdvice">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/">
+<meta property="og:site_name" content="HostAdvice">
+<meta property="og:image" content="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server.jpeg">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:description" content="">
+<meta property="twitter:title" content="How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server | HostAdvice">
+<meta property="twitter:site" content="@hostadvicecom">
+<meta property="twitter:creator" content="@hostadvicecom">
+<meta property="twitter:image" content="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server.jpeg">
+<link type="text/css" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/fonts.css" rel="stylesheet">
+<link type="text/css" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/style.css" rel="stylesheet">
+<script type="text/javascript" async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/tracking.js.download"></script><script type="text/javascript" async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/analytics.js.download"></script><script type="text/javascript" async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/f.txt"></script><script id="facebook-jssdk" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/sdk.js.download"></script><script async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/gtm.js.download"></script><script type="text/javascript" async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/w.js.download"></script><script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/webfont.js.download" type="text/javascript" async=""></script><script type="text/javascript" id="tr-js">
+						window['translations']={};window['translations']["Read More"]='Read More';
+window['translations']["Less"]='Less';
+window['translations']["More"]='More';
+window['translations']["Hide Scores"]='Hide Scores';
+window['translations']["Detailed Scores"]='Detailed Scores';
+window['translations']["Please select at least 1 option"]='Please select at least 1 option';
+window['translations']["Please select address, by moving red marker on the map"]='Please select address, by moving red marker on the map';
+window['translations']["Please add at least 1 hosting plan!"]='Please add at least 1 hosting plan!';
+window['translations']["Please select at least 1 location"]='Please select at least 1 location';
+window['translations']["You must enter your email"]='You must enter your email';
+window['translations']["You must enter your name"]='You must enter your name';
+window['translations']["This field is required."]='This field is required.';
+window['translations']["Please fix this field."]='Please fix this field.';
+window['translations']["Please enter a valid email address."]='Please enter a valid email address.';
+window['translations']["Please enter a valid URL."]='Please enter a valid URL.';
+window['translations']["Please enter a valid date."]='Please enter a valid date.';
+window['translations']["Please enter a valid date ( ISO )."]='Please enter a valid date ( ISO ).';
+window['translations']["Please enter a valid number."]='Please enter a valid number.';
+window['translations']["Please enter only digits."]='Please enter only digits.';
+window['translations']["Please enter no more than {0} characters."]='Please enter no more than {0} characters.';
+window['translations']["Please enter at least {0} characters."]='Please enter at least {0} characters.';
+window['translations']["Please enter a value between {0} and {1} characters long."]='Please enter a value between {0} and {1} characters long.';
+window['translations']["Please enter a value between {0} and {1}."]='Please enter a value between {0} and {1}.';
+window['translations']["Please enter a value less than or equal to {0}."]='Please enter a value less than or equal to {0}.';
+window['translations']["Please enter a value greater than or equal to {0}."]='Please enter a value greater than or equal to {0}.';
+window['translations']["{{n}} Screenshot Explanation"]='{{n}} Screenshot Explanation';
+window['translations']["$/month"]='$/month';
+window['translations']["Core"]='Core';
+window['translations']["Cores"]='Cores';
+window['translations']["disqus_no_comments"]='No comments';
+window['translations']["disqus_multiple_comments"]='{num} Comments';
+window['translations']["disqus_one_comment"]='1 Comment';
+window['translations']["GHz"]='GHz';
+window['translations']["GB"]='GB';
+window['translations']["MB"]='MB';
+window['translations']["TB"]='TB';
+window['translations']["Any"]='Any';
+window['translations']["Try Again"]='Try Again';
+window['translations']["Unlimited"]='Unlimited';
+window['translations']["Not Rated Yet"]='Not Rated Yet';
+window['translations']["Sorted by Recommendations"]='Sorted by Recommendations';
+window['translations']["Sorted by Web Host"]='Sorted by Web Host';
+window['translations']["Sorted by Name"]='Sorted by Name';
+window['translations']["Sorted by Price"]='Sorted by Price';
+window['translations']["Sorted by Money Back"]='Sorted by Money Back';
+window['translations']["Sorted by Support"]='Sorted by Support';
+window['translations']["Sorted by Recommendations"]='Sorted by Recommendations';
+window['translations']["Sorted by User's Score"]='Sorted by User\'s Score';
+window['translations']["Sorted by Users Rating"]='Sorted by Users Rating';
+window['translations']["Please enter at least 2 words"]='Please enter at least 2 words';
+window['translations']["At least 1 record required"]='At least 1 record required';
+window['translations']["Select score"]='Select score';
+window['translations']["Cancel"]='Cancel';
+window['translations']["ad_topbar_text"]='Try our extension for Google Chrome which allows you to find out the hosting of any website in one click without leaving the page';
+window['translations']["ad_topbar_button_text"]='Add to Chrome';
+            function tr_key($key, $default) {
+                return window['translations'][$key] ? window['translations'][$key] : $default;
+            }
+
+            function tr($string) {
+                return tr_key($string, $string);
+            }
+
+            window['translations_current_language'] = "en";
+            window['translations_current_fb_locale'] = "en_US";
+
+        </script>
+<script>
+        var ajaxUrl_ht = 'https://hostadvice.com/wp-admin/admin-ajax.php';
+        var ha_locale = 'en_US';
+    </script>
+<meta name="msvalidate.01" content="C4F6A1BBB5956A1836B318D53BE7A586">
+<meta name="msvalidate.01" content="C328ADBA2532CD540C812CADFE347783">
+<meta name="msvalidate.01" content="C4F6A1BBB5956A1836B318D53BE7A586">
+<meta name="google-site-verification" content="5znn6Dk06kyiORnUsqdaN8-1H9Z14cBAKz3AJFI8TL4">
+<meta name="google-site-verification" content="cNdE-55pKwfNP67_BU5q_oOsKfGLVYQ1TnBYVvMLJUs">
+<meta name="yandex-verification" content="67c5af431830df7d">
+<meta name="verify-admitad" content="5d0fe21e91">
+<script async="" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/js"></script>
+<script>
+    //only live website
+    //if (window.location.host.indexOf('.com') !== -1) {
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+                    gtag('config', 'UA-51533564-1');
+        
+        (function (window) {
+            var originalWindowErrorCallback = window.onerror;
+            window.onerror = function customErrorHandler(errorMessage, url, lineNumber, columnNumber, errorObject) {
+
+                if (typeof gtag === 'function') {
+                    var exceptionDescription = errorMessage;
+                    if (typeof errorObject !== 'undefined' && errorObject !== null && typeof errorObject.message !== 'undefined') {
+                        exceptionDescription = errorObject.message;
+                    }
+
+                    exceptionDescription += ' @ ' + url + ':' + lineNumber + ':' + columnNumber;
+
+                    gtag('event', 'exception', {
+                        'exDescription': exceptionDescription
+                    });
+                }
+
+                if (typeof originalWindowErrorCallback === 'function') {
+                    return originalWindowErrorCallback(errorMessage, url, lineNumber, columnNumber, errorObject);
+                }
+                return false;
+            };
+        })(window);
+  //  }
+</script>
+<link rel="stylesheet" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/css(1)" media="all"><script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/OneSignalPageSDKES6.js.download" async=""></script><link rel="stylesheet" type="text/css" media="all" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/reset.css"><script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/f(1).txt"></script></head>
+<body class="how-to-template-default single single-how-to postid-73190 language-en is-ltr" data-page="how-to-post">
+<div id="fb-root"></div>
+<script type="application/ld+json">
+   {"@context":"http:\/\/schema.org","@type":"Organization","name":"HostAdvice","alternateName":"HostAdvice","url":"https:\/\/hostadvice.com\/","logo":"https:\/\/hostadvice.com\/wp-content\/themes\/bestwh\/img\/logo2.png","sameAs":["https:\/\/www.facebook.com\/hostadvice","https:\/\/twitter.com\/hostadvicecom"],"potentialAction":{"@type":"SearchAction","target":"https:\/\/hostadvice.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+<div class="body_inner clearfix">
+<div class="container no-xs-padding">
+<header id="main_header">
+<button class="navbar-toggle" type="button" id="main-menu-toggler">
+<i class="fas fa-bars"></i>
+</button>
+<button class="search-toggle">
+<i class="fas fa-search fa-flip-horizontal"></i>
+</button>
+<a class="logo" href="https://hostadvice.com/" title="HostAdvice - Web Hosting User Reviews and Expert Opinions" rel="home" data-ga-event="site logo"><img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/logo.png" alt="HostAdvice - Best Web Hosting for You"></a>
+<nav class="header_big_nav_wrapper">
+<ul id="main_nav"><li class="menu-item reviews-main-nav menu-item-has-children"><a href="https://hostadvice.com/" title="Reviews">Reviews</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/" title="Best Web Hosting Services"><i class="fas fa-star"></i> Best Web Hosting Services</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/cheap-web-hosting/" title="Cheap Web Hosting"><i class="far fa-money-bill-alt"></i> Cheap Web Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/small-business-hosting/" title="Small Business Web Hosting"><i class="fas fa-shopping-basket"></i> Small Business Web Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/free-hosting/" title="Free Web Hosting"><i class="far fa-smile"></i> Free Web Hosting</a></li><li class="menu-item menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Hosting Type"><i class="fas fa-server"></i> By Hosting Type</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/shared-hosting/" title="Shared Hosting"><i class="fas fa-users"></i> Shared Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/vps/" title="VPS Hosting"><i class="far fa-hdd"></i> VPS Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/dedicated-server/" title="Dedicated Server Hosting"><i class="fas fa-server"></i> Dedicated Server Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/cloud-hosting/" title="Cloud Hosting"><i class="fas fa-cloud"></i> Cloud Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/cdn/" title="CDN"><i class="fas fa-rocket"></i> CDN</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/resellers/" title="Resellers"><i class="far fa-handshake"></i> Resellers</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/ssl/" title="SSL"><i class="fab fa-expeditedssl"></i> SSL</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/ddos-protection/" title="DDoS Protection Services"><i class="far fa-shield-alt"></i> DDoS Protection Services</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/website-builder/" title="Website Builder"><i class="fas fa-wrench"></i> Website Builder</a></li></ul>
+</li><li class="menu-item menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By CMS Support"><i class="fas fa-tachometer-alt"></i> By CMS Support</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/wordpress/" title="WordPress Hosting"><i class="fab fa-wordpress"></i> WordPress Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/magento/" title="Magento Hosting"><i class="ti icon-magento"></i> Magento Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/drupal/" title="Drupal Hosting"><i class="fab fa-drupal"></i> Drupal Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/joomla/" title="Joomla Hosting"><i class="fab fa-joomla"></i> Joomla Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/fantastico/" title="Fantastico Hosting"><i class="far fa-smile"></i> Fantastico Hosting</a></li></ul>
+</li><li class="menu-item menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Operating System"><i class="fab fa-linux"></i> By Operating System</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/windows/" title="Windows Hosting"><i class="fab fa-windows"></i> Windows Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/linux/" title="Linux Hosting"><i class="fab fa-linux"></i> Linux Hosting</a></li></ul>
+</li><li class="menu-item menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Server Location"><i class="fas fa-map-marker-alt"></i> By Server Location</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--server_location-usa/" title="North America"><i class="fas fa-globe"></i> North America</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--server_location-europe/" title="Europe"><i class="fas fa-globe"></i> Europe</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--server_location-africa/" title="Africa &amp; Middle East"><i class="fas fa-globe"></i> Africa &amp; Middle East</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--server_location-australia/" title="Oceania"><i class="fas fa-globe"></i> Oceania</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--server_location-asia/" title="Asia"><i class="fas fa-globe"></i> Asia</a></li></ul>
+</li><li class="menu-item menu-up menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Scripting Language"><i class="fa fa-code"></i> By Scripting Language</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/php/" title="PHP Hosting"><i class="ti icon-php"></i> PHP Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/java/" title="Java Hosting"><i class="ti icon-java"></i> Java Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/python/" title="Python Hosting"><i class="ti icon-python"></i> Python Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/nodejs/" title="Node.js Hosting"><i class="ti icon-nodejs"></i> Node.js Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/perl/" title="Perl Hosting"><i class="ti icon-perl"></i> Perl Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/ruby-on-rails/" title="Ruby on Rails Hosting"><i class="ti icon-rails"></i> Ruby on Rails Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/django/" title="Django Hosting">Django Hosting</a></li></ul>
+</li><li class="menu-item menu-up menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Database Support"><i class="fa fa-database"></i> By Database Support</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/mysql/" title="MySQL Hosting"><i class="ti icon-mysql-alt"></i> MySQL Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/mongodb/" title="MongoDB Hosting"><i class="ti icon-mongodb"></i> MongoDB Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/postgresql/" title="PostgreSQL Hosting"><i class="ti icon-postgres"></i> PostgreSQL Hosting</a></li></ul>
+</li><li class="menu-item menu-up menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Payment Type"><i class="fa fa-credit-card"></i> By Payment Type</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-paypal-accepted/" title="PayPal"><i class="fab fa-paypal"></i> PayPal</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-credit-card-accepted/" title="Credit Card"><i class="fa fa-credit-card"></i> Credit Card</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-bitcoin-accepted/" title="Bitcoin"><i class="fab fa-btc"></i> Bitcoin</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-money-bookers-accepted/" title="Skrill">Skrill</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-wire-transfer-accepted/" title="Wire Transfer">Wire Transfer</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/filters--payment_type-webmoney-accepted/" title="Webmoney">Webmoney</a></li></ul>
+</li><li class="menu-item menu-up menu-item-has-children"><a href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" title="By Purpose"><i class="fal fa-bullseye"></i> By Purpose</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/green-hosting/" title="Green Hosting"><i class="fas fa-leaf"></i> Green Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/managed-hosting/" title="Managed Hosting"><i class="fas fa-cog"></i> Managed Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/email-hosting/" title="Email Hosting"><i class="fa fa-at"></i> Email Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/domain-hosting/" title="Domain Hosting"><i class="fas fa-home"></i> Domain Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/blog-hosting/" title="Blog Hosting"><i class="far fa-newspaper"></i> Blog Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/unlimited-hosting/" title="Unlimited Hosting"><i class="far fa-tachometer-alt"></i> Unlimited Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/dmca-ignored-hosting/" title="DMCA Ignored Hosting"><i class="fas fa-lock-open"></i> DMCA Ignored Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/offshore-hosting/" title="Offshore Hosting"><i class="fal fa-globe"></i> Offshore Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/ecommerce-hosting/" title="Ecommerce Hosting"><i class="fa fa-shopping-cart"></i> Ecommerce Hosting</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-services/shoutcast-hosting/" title="SHOUTcast Hosting"><i class="fas fa-podcast"></i> SHOUTcast Hosting</a></li></ul>
+</li></ul>
+</li><li class="menu-item not-clickable-link menu-item-has-children"><a href="https://hostadvice.com/tools/" title="Tools">Tools</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/tools/whois/" title="Who Is Hosting?"><i class="fa fa-eye"></i> Who Is Hosting?</a></li><li class="menu-item"><a href="https://hostadvice.com/marketshare/" title="Web Hosting Market Share 2019"><i class="fal fa-chart-pie"></i> Web Hosting Market Share 2019</a></li><li class="menu-item"><a href="https://hostadvice.com/web-hosting-advisor/" title="Web Hosting Advisor"><i class="far fa-lightbulb"></i> Web Hosting Advisor</a></li><li class="menu-item"><a href="https://hostadvice.com/tools/web-hosting-comparison/" title="Web Hosting side by side comparison"><i class="fa fa-compress-alt"></i> Web Hosting side by side comparison</a></li><li class="menu-item"><a href="https://hostadvice.com/tools/whois-domain/" title="Whois Lookup"><i class="far fa-search"></i> Whois Lookup</a></li><li class="menu-item"><a href="https://hostadvice.com/tools/plans-search/" title="Plans Search"><i class="fal fa-tags"></i> Plans Search</a></li></ul>
+</li><li class="menu-item current-menu-item menu-item-has-children"><a href="https://hostadvice.com/resources/" title="Resources">Resources</a><ul class="sub-menu"><li class="menu-item"><a href="https://hostadvice.com/resources/" title="Resource Center"><i class="far fa-life-ring"></i> Resource Center</a></li><li class="menu-item"><a href="https://hostadvice.com/hosting-guides/" title="Hosting Guides"><i class="far fa-book"></i> Hosting Guides</a></li><li class="menu-item current-menu-item"><a href="https://hostadvice.com/how-to/" title="How To"><i class="far fa-question"></i> How To</a></li><li class="menu-item"><a href="https://hostadvice.com/blog/" title="Blog"><i class="far fa-newspaper"></i> Blog</a></li></ul>
+</li><li class="menu-item submit-review-menu"><a href="https://hostadvice.com/submit-hosting-company-review/" title="Write Review">Write Review</a></li><li class="menu-item orange"><a href="https://hostadvice.com/web-hosting-coupons/" title="Hosting Coupons"><i class="fa fa-fire"></i> Hosting Coupons</a></li></ul>
+</nav>
+<form method="get" class="big-input-form companies-search-form">
+<div class="big-input-container">
+<input type="text" name="companies-search" value="" class="big-input ui-autocomplete-input" title="Search for a specific web host" placeholder="Search for a specific web host" autocomplete="off">
+<div class="input-loader ajax-loader loader-for-companies_search" style="display: none;">
+<i class="fas fa-sync fa-spin"></i>
+</div>
+</div>
+</form>
+<div class="header-currency-selector">
+<div class="current-currency">
+USD
+<div class="available-currencies row">
+<a class="col-xs-2 col-sm-4 header-currency-select selected-currency">
+$<span class="hcs-full-name">United States dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="EUR">
+€<span class="hcs-full-name">Euro</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="GBP">
+£<span class="hcs-full-name">British pound</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="AED">
+AED<span class="hcs-full-name">UAE dirham</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="ARS">
+ARS<span class="hcs-full-name">Argentine peso</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="AUD">
+AU$<span class="hcs-full-name">Australian dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="BGN">
+BGN<span class="hcs-full-name">Bulgarian lev</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="BRL">
+R$<span class="hcs-full-name">Brazilian real</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="CAD">
+CA$<span class="hcs-full-name">Canadian dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="CHF">
+CHF<span class="hcs-full-name">Swiss franc</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="CLP">
+CLP<span class="hcs-full-name">Chilean peso</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="CNY">
+CN¥<span class="hcs-full-name">Chinese yuan</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="COP">
+COP<span class="hcs-full-name">Colombian peso</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="CZK">
+CZK<span class="hcs-full-name">Czech koruna</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="DKK">
+DKK<span class="hcs-full-name">Danish krone</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="EGP">
+EGP<span class="hcs-full-name">Egyptian pound</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="HKD">
+HK$<span class="hcs-full-name">Hong Kong dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="HUF">
+HUF<span class="hcs-full-name">Hungarian forint</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="IDR">
+IDR<span class="hcs-full-name">Indonesian rupiah</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="ILS">
+₪<span class="hcs-full-name">Israeli new shekel</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="INR">
+INR<span class="hcs-full-name">Indian rupee</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="JPY">
+¥<span class="hcs-full-name">Japanese yen</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="LKR">
+LKR<span class="hcs-full-name">Sri Lankan Rupee</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="KRW">
+₩<span class="hcs-full-name">South Korean won</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="MXN">
+MX$<span class="hcs-full-name">Mexican peso</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="MYR">
+MYR<span class="hcs-full-name">Malaysian ringgit</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="NOK">
+NOK<span class="hcs-full-name">Norwegian krone</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="NZD">
+NZ$<span class="hcs-full-name">New Zealand dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="PLN">
+PLN<span class="hcs-full-name">Polish złoty</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="RON">
+RON<span class="hcs-full-name">Romanian leu</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="RUB">
+RUB<span class="hcs-full-name">Russian ruble</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="SAR">
+SAR<span class="hcs-full-name">Saudi riyal</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="SEK">
+SEK<span class="hcs-full-name">Swedish krona</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="SGD">
+SGD<span class="hcs-full-name">Singapore dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="THB">
+฿<span class="hcs-full-name">Thai baht</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="TRY">
+TRY<span class="hcs-full-name">Turkish lira</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="TWD">
+NT$<span class="hcs-full-name">New Taiwan dollar</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="UAH">
+UAH<span class="hcs-full-name">Ukrainian hryvnia</span>
+</a>
+<a class="col-xs-2 col-sm-4 header-currency-select " data-currency="ZAR">
+ZAR<span class="hcs-full-name">South African rand</span>
+</a>
+</div>
+</div>
+</div>
+<div class="language-selector" id="language_selector">
+<div class="current-language">
+en<span class="flag flag-gb"></span>
+</div>
+<div class="available-languages row">
+<a href="javascript:void(0)" title="English" class="col-xs-4 col-sm-3 header-language-select selected-language">
+<span class="flag flag-gb"></span>
+<span class="language-name">English</span>
+</a>
+<a href="https://ar.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="العربية" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-arl"></span>
+<span class="language-name">العربية</span>
+</a>
+<a href="https://bg.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Български" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-bg"></span>
+<span class="language-name">Български</span>
+</a>
+<a href="https://cs.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Čeština" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-cz"></span>
+<span class="language-name">Čeština</span>
+</a>
+<a href="https://da.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Dansk" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-dk"></span>
+<span class="language-name">Dansk</span>
+</a>
+<a href="https://de.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Deutsch" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-de"></span>
+<span class="language-name">Deutsch</span>
+</a>
+<a href="https://el.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Ελληνικά" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-gr"></span>
+<span class="language-name">Ελληνικά</span>
+</a>
+<a href="https://et.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Eesti" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-ee"></span>
+<span class="language-name">Eesti</span>
+</a>
+<a href="https://es.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Español" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-es"></span>
+<span class="language-name">Español</span>
+</a>
+<a href="https://fi.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Suomi" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-fi"></span>
+<span class="language-name">Suomi</span>
+</a>
+<a href="https://fr.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Français" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-fr"></span>
+<span class="language-name">Français</span>
+</a>
+<a href="https://he.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="עברית" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-il"></span>
+<span class="language-name">עברית</span>
+</a>
+<a href="https://hk.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="粵語" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-hk"></span>
+<span class="language-name">粵語</span>
+</a>
+<a href="https://hr.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Hrvatski" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-hr"></span>
+<span class="language-name">Hrvatski</span>
+</a>
+<a href="https://hu.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Magyar" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-hu"></span>
+<span class="language-name">Magyar</span>
+</a>
+<a href="https://id.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Bahasa Indonesia" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-id"></span>
+<span class="language-name">Bahasa Indonesia</span>
+</a>
+<a href="https://it.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Italiano" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-it"></span>
+<span class="language-name">Italiano</span>
+</a>
+<a href="https://ja.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="日本語" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-jp"></span>
+<span class="language-name">日本語</span>
+</a>
+<a href="https://ko.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="한국어" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-kr"></span>
+<span class="language-name">한국어</span>
+</a>
+<a href="https://lt.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Lietuvių" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-lt"></span>
+<span class="language-name">Lietuvių</span>
+</a>
+<a href="https://lv.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Latviešu" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-lv"></span>
+<span class="language-name">Latviešu</span>
+</a>
+<a href="https://nl.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Nederlands" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-nl"></span>
+<span class="language-name">Nederlands</span>
+</a>
+<a href="https://no.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Norsk" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-no"></span>
+<span class="language-name">Norsk</span>
+</a>
+<a href="https://pl.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Polski" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-pl"></span>
+<span class="language-name">Polski</span>
+</a>
+<a href="https://pt.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Português" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-pt"></span>
+<span class="language-name">Português</span>
+</a>
+<a href="https://ro.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Română" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-ro"></span>
+<span class="language-name">Română</span>
+</a>
+<a href="https://ru.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Русский" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-ru"></span>
+<span class="language-name">Русский</span>
+</a>
+<a href="https://sk.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Slovenčina" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-sk"></span>
+<span class="language-name">Slovenčina</span>
+</a>
+<a href="https://sr.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Srpski" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-rs"></span>
+<span class="language-name">Srpski</span>
+</a>
+<a href="https://sv.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Svenska" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-se"></span>
+<span class="language-name">Svenska</span>
+</a>
+<a href="https://th.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="ไทย" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-th"></span>
+<span class="language-name">ไทย</span>
+</a>
+<a href="https://tr.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Türkçe" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-tr"></span>
+<span class="language-name">Türkçe</span>
+</a>
+<a href="https://zh.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="中文" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-cn"></span>
+<span class="language-name">中文</span>
+</a>
+<a href="https://uk.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Українська" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-ua"></span>
+<span class="language-name">Українська</span>
+</a>
+<a href="https://vi.hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="Tiếng Việt" class="col-xs-4 col-sm-3 header-language-select ">
+<span class="flag flag-vn"></span>
+<span class="language-name">Tiếng Việt</span>
+</a>
+</div>
+</div>
+<div class="clear"></div>
+</header>
+<a href="https://hostadvice.com/bothell.php" style="margin: 0; line-height: 0;"><span></span></a>
+<div class="location_info">
+<div class="breadcrumbs">
+<i class="fas fa-home visible-xs-inline-block"></i>
+<span class="hidden-xs">You are in:</span>
+<span>
+<span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" rel="index up up" title="Go to HostAdvice" href="https://hostadvice.com/" class="home">
+<span itemprop="title">HostAdvice</span>
+</a>
+</span>
+<i class="fa fa-chevron-right"></i> <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" rel=" up" title="Go to How To" href="https://hostadvice.com/how-to" class="">
+<span itemprop="title">How To</span>
+</a>
+</span>
+<i class="fa fa-chevron-right"></i> <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a itemprop="url" rel="" title="Go to How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server" href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" class="current-item">
+<span itemprop="title">How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server</span>
+</a>
+</span>
+</span>
+</div>
+</div>
+<div class="row" id="how-to-template">
+<div id="primary" class="col-md-9">
+<div id="content" role="main">
+<article id="post-73190" class="box-shadow post-73190 how-to type-how-to status-publish hentry how_to_tag-cms how_to_tag-dedicated-server how_to_tag-joomla how_to_tag-linux how_to_tag-virtual-server how_to_tag-vps how_to_category-vps">
+<div class="box padding">
+<header class="entry-header">
+<h1 class="entry-title">How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server</h1>
+<div class="entry-meta">
+<div class="author-info">
+<a href="https://hostadvice.com/author/armisteadmark3/" title="Mark Armistead">
+<img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/gravatar-3a4bcd8405ba4afa3fa6a9b789217044.png" alt="Mark Armistead" class="avatar">
+</a>
+<div>
+<em>Written by</em>
+<a href="https://hostadvice.com/author/armisteadmark3/" title="Mark Armistead" rel="author">
+<strong class="fn">Mark Armistead</strong>
+</a>
+</div>
+</div>
+<div class="posted-on">
+<em>Posted on</em>
+<strong>Jul. 19, 2018</strong>
+</div>
+<div class="socials clearfix">
+<a class="share-button share-facebook" href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" data-link="" data-text="How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server" data-network="facebook"><i class="fab fa-facebook-f"></i></a>
+<a class="share-button share-twitter" href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" data-link="" data-text="How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server" data-network="twitter"><i class="fab fa-twitter"></i></a>
+<a class="share-button share-reddit" href="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/#" data-link="" data-text="How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server" data-network="reddit"><i class="fab fa-reddit-alien"></i></a>
+</div>
+</div> </header>
+<div class="entry-content clearfix">
+<p><span style="font-weight: 400;">Joomla is the second most widely used Content Management System (CMS) besides WordPress. The open-source software is programmed in PHP using Object Oriented techniques that make it easy to maintain.</span></p>
+<p><span style="font-weight: 400;">Joomla stores its data in MySQL or MariaDB, and it is used by millions of programmers worldwide to create mobile-ready and user-friendly websites. It has thousands of features and designs, and these make it a good bet for building professional sites.</span></p>
+<p><span style="font-weight: 400;">In this article, we will show you how to install Joomla on your Ubuntu 18.04 Virtual Private Server (VPS).</span></p>
+<h3>Prerequisites</h3>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A non-root user with sudo privileges</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A VPS or dedicated server hosting plan</span></li>
+</ul>
+<blockquote><p>Special note: use HostAdvice's <a href="https://hostadvice.com/hosting-services/vps/">VPS hosting reviews</a> and <a href="https://hostadvice.com/hosting-services/dedicated-server/">dedicated hosting reviews</a> to get the best service at the best prices.</p></blockquote>
+<h2>Step 1: Install Apache</h2>
+<p><span style="font-weight: 400;">First, update the index on the Ubuntu repository:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo apt-get update</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo apt-get update</span></li></ol><pre style="display: none;">$ sudo apt-get update</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Then, install Apache using the command below</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo apt-get install apache2</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo apt-get install apache2</span></li></ol><pre style="display: none;">$ sudo apt-get install apache2</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<h2><b>Step 2: Install MySQL</b></h2>
+<p><span style="font-weight: 400;">Joomla stores data in a MySQL database. So you need to install MySQL server &nbsp;as well:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo apt-get install mysql-server</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo apt-get install mysql-server</span></li></ol><pre style="display: none;">$ sudo apt-get install mysql-server</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">You should enter a strong password for the root user when prompted to do so.</span></p>
+<p><span style="font-weight: 400;">Since the default MySQL installation is not secure, run the command below to remove anonymous users and test databases:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo mysql_secure_installation</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo mysql_secure_installation</span></li></ol><pre style="display: none;">$ sudo mysql_secure_installation</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Press</span><b> Y</b><span style="font-weight: 400;"> or </span><b>N </b><span style="font-weight: 400;">and hit Enter as indicated below when prompted &nbsp;to answer the questions that follow:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Setup VALIDATE PASSWORD plugin? [Y/N] </span><span style="font-weight: 400;">N</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Change root password? [Y/N] </span><span style="font-weight: 400;">N</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Remove anonymous users? [Y/N] </span><span style="font-weight: 400;">Y</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Disallow root login remotely? [Y/N] </span><span style="font-weight: 400;">Y</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Remove test database and access to it? [Y/N]</span><span style="font-weight: 400;"> Y</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Reload privilege tables now? [Y/N] </span><span style="font-weight: 400;">Y</span></li>
+</ul>
+<p><span style="font-weight: 400;">We now need to create a database where Joomla will store data:</span></p>
+<p><span style="font-weight: 400;">First, log in on the MySQL Command Line Interface(CLI) using the commands below:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo mysql -u root -p</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo mysql -u root -p</span></li></ol><pre style="display: none;">$ sudo mysql -u root -p</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Enter your root password and hit </span><b>Enter.</b></p>
+<p><span style="font-weight: 400;">Next create the database, user and assign the right privileges using the commands below:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">mysql&gt;CREATE DATABASE joomla;
+mysql&gt;GRANT ALL PRIVILEGES on joomla.* to 'joomla_user'@'localhost' identified by 'PASSWORD';
+mysql&gt;FLUSH PRIVILEGES;
+mysql&gt;QUIT;</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">mysql&gt;CREATE DATABASE joomla;</span></li><li class=" even"><span class="">mysql&gt;GRANT ALL PRIVILEGES on joomla.* to </span><span class="st0">'joomla_user'</span><span class="">@</span><span class="st0">'localhost'</span><span class=""> identified by </span><span class="st0">'PASSWORD'</span><span class="">;</span></li><li class=" odd"><span class="">mysql&gt;FLUSH PRIVILEGES;</span></li><li class=" even"><span class="">mysql&gt;QUIT;</span></li></ol><pre style="display: none;">mysql&gt;CREATE DATABASE joomla;
+mysql&gt;GRANT ALL PRIVILEGES on joomla.* to 'joomla_user'@'localhost' identified by 'PASSWORD';
+mysql&gt;FLUSH PRIVILEGES;
+mysql&gt;QUIT;</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Remember to replace </span><b><i>‘joomla_user’</i></b><span style="font-weight: 400;"> with your preferred value. Also, you </span><b>should</b><span style="font-weight: 400;"> set a strong password for the user.</span></p>
+<h2>Step 3: Install PHP</h2>
+<p><span style="font-weight: 400;">Joomla is written in PHP – a server side general purpose scripting language. &nbsp;So, you need to install PHP as well together with associated modules tailored for Apache web server using the commands below:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo apt-get install php libapache2-mod-php
+$ sudo apt-get install php-cli php-common php-mbstring php-gd php-intl php-xml php-mysql php-zip php-curl php-xmlrpc</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo apt-get install php libapache2-mod-php</span></li><li class=" even"><span class="">$ sudo apt-get install php-cli php-common php-mbstring php-gd php-intl php-xml php-mysql php-zip php-curl php-xmlrpc</span></li></ol><pre style="display: none;">$ sudo apt-get install php libapache2-mod-php
+$ sudo apt-get install php-cli php-common php-mbstring php-gd php-intl php-xml php-mysql php-zip php-curl php-xmlrpc</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Press </span><b>Y </b><span style="font-weight: 400;">and hit </span><b>Enter</b><span style="font-weight: 400;"> when prompted to confirm the installation</span></p>
+<h2>Step 4: Install Joomla</h2>
+<p><span style="font-weight: 400;">Since the download will be a zip archive, you should begin by installing the unzip tool.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo apt-get install unzip</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo apt-get install unzip</span></li></ol><pre style="display: none;">$ sudo apt-get install unzip</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Next, cd to the ‘/tmp’ directory and download the latest version of Joomla from the official website.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ cd /tmp</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ cd /tmp</span></li></ol><pre style="display: none;">$ cd /tmp</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ wget https://downloads.joomla.org/cms/joomla3/3-8-10/Joomla_3-8-10-Stable-Full_Package.zip</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ wget https</span><span class="co1">://downloads.joomla.org/cms/joomla3/3-8-10/Joomla_3-8-10-Stable-Full_Package.zip</span></li></ol><pre style="display: none;">$ wget https://downloads.joomla.org/cms/joomla3/3-8-10/Joomla_3-8-10-Stable-Full_Package.zip</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Joomla will be downloaded and stored under the archive file ‘</span><b><i>Joomla_3-8-10-Stable-Full_Package.zip’</i></b></p>
+<p><span style="font-weight: 400;">We need to unzip this file and copy it to the root of our website probably under a directory name like </span><b>‘joomla’</b><span style="font-weight: 400;">. &nbsp;You can use any name for this.</span></p>
+<p><span style="font-weight: 400;">So first, we make the directory</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo mkdir /var/www/html/joomla</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo mkdir /var/www/html/joomla</span></li></ol><pre style="display: none;">$ sudo mkdir /var/www/html/joomla</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Unzip the file</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo unzip Joomla_3-8-10-Stable-Full_Package.zip  -d /var/www/html/joomla</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo unzip Joomla_3-</span><span class="nu0">8</span><span class="">-</span><span class="nu0">10</span><span class="">-Stable-Full_Package.zip  -d /var/www/html/joomla</span></li></ol><pre style="display: none;">$ sudo unzip Joomla_3-8-10-Stable-Full_Package.zip  -d /var/www/html/joomla</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<h2>Step 5: Configure Joomla and Assign the Right File Permissions</h2>
+<p><span style="font-weight: 400;">The default Joomla installation comes with a </span><b><i>‘htaccess.txt’</i></b><span style="font-weight: 400;"> which we should copy to create a </span><b><i>‘.htaccess’</i></b><span style="font-weight: 400;"> file. Use the commands below to do this:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo cp /var/www/html/joomla/htaccess.txt /var/www/html/joomla/.htaccess</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo cp /var/www/html/joomla/htaccess.txt /var/www/html/joomla/.htaccess</span></li></ol><pre style="display: none;">$ sudo cp /var/www/html/joomla/htaccess.txt /var/www/html/joomla/.htaccess</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">In order for Apache to be able to access Joomla files, we need to set the right file permissions using the </span><span style="font-weight: 400;">commands below:</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo chown -R www-data.www-data /var/www/html/joomla
+$ sudo chmod -R 755 /var/www/html/joomla</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo chown -R www-data.www-data /var/www/html/joomla</span></li><li class=" even"><span class="">$ sudo chmod -R </span><span class="nu0">755</span><span class=""> /var/www/html/joomla</span></li></ol><pre style="display: none;">$ sudo chown -R www-data.www-data /var/www/html/joomla
+$ sudo chmod -R 755 /var/www/html/joomla</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Restart Apache for all PHP settings to take place</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">$ sudo systemctl restart apache2</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">$ sudo systemctl restart apache2</span></li></ol><pre style="display: none;">$ sudo systemctl restart apache2</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<h2>Step 6: Finalize Joomla Installation via a browser</h2>
+<p><span style="font-weight: 400;">Next navigate to the URL </span><b><i>‘http://example.com/joomla’</i></b><span style="font-weight: 400;"> on your browser. Remember to replace ‘example.com’ with your domain name or public IP address of your server</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">http://example.com/joomla</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">http</span><span class="co1">://example.com/joomla</span></li></ol><pre style="display: none;">http://example.com/joomla</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><span style="font-weight: 400;">Then enter your site name, description , email address and password that you want to create for the administrator.</span></p>
+<p><a href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image2-27-e1531994648442.png"><img class="alignnone size-full wp-image-73193" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image2-27-e1531994648442.png" alt="" srcset="https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442.png 1024w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-300x185.png 300w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-768x474.png 768w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-624x385.png 624w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-350x216.png 350w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-65x40.png 65w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-36x22.png 36w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-243x150.png 243w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-162x100.png 162w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-777x480.png 777w, https://hostadvice.com/wp-content/uploads/2018/07/image2-27-e1531994648442-500x309.png 500w" sizes="(max-width: 1024px) 100vw, 1024px"></a></p>
+<p><span style="font-weight: 400;">Then, click ‘</span><b>Next’</b><span style="font-weight: 400;"> on the bottom right to proceed.</span></p>
+<p><span style="font-weight: 400;">On the page that follows, enter the database details that you created above and click </span><b>‘Next’</b><span style="font-weight: 400;"> to proceed</span></p>
+<p><a href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image1-32-e1531994815198.png"><img class="alignnone size-full wp-image-73194" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image1-32-e1531994815198.png" alt="" srcset="https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198.png 1024w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-300x187.png 300w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-768x478.png 768w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-624x388.png 624w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-350x218.png 350w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-64x40.png 64w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-35x22.png 35w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-241x150.png 241w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-162x100.png 162w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-777x483.png 777w, https://hostadvice.com/wp-content/uploads/2018/07/image1-32-e1531994815198-500x311.png 500w" sizes="(max-width: 1024px) 100vw, 1024px"></a></p>
+<p><span style="font-weight: 400;">Then click </span><b>‘Install’</b><span style="font-weight: 400;"> on the next screen.</span></p>
+<p><a href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image3-24-e1531994870689.png"><img class="alignnone size-full wp-image-73195" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image3-24-e1531994870689.png" alt="" srcset="https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689.png 1008w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-300x186.png 300w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-768x475.png 768w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-624x386.png 624w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-350x217.png 350w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-65x40.png 65w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-36x22.png 36w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-242x150.png 242w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-162x100.png 162w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-777x481.png 777w, https://hostadvice.com/wp-content/uploads/2018/07/image3-24-e1531994870689-500x310.png 500w" sizes="(max-width: 1008px) 100vw, 1008px"></a></p>
+<p><span style="font-weight: 400;">The setup wizard will finalize the installation and you will get a congratulations message:</span></p>
+<p><a href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image5-21-e1531995003354.png"><img class="alignnone size-full wp-image-73196" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image5-21-e1531995003354.png" alt="" srcset="https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354.png 1011w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-300x188.png 300w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-768x482.png 768w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-624x391.png 624w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-350x219.png 350w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-64x40.png 64w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-35x22.png 35w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-239x150.png 239w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-159x100.png 159w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-777x487.png 777w, https://hostadvice.com/wp-content/uploads/2018/07/image5-21-e1531995003354-500x314.png 500w" sizes="(max-width: 1011px) 100vw, 1011px"></a></p>
+<p><span style="font-weight: 400;">Click on the </span><b>‘Remove Installation Folder’.</b></p>
+<h2><b>Step 7: Test the Installation</b></h2>
+<p><span style="font-weight: 400;">Navigate to the URL </span><b><i>‘http://example.com/joomla’</i></b><span style="font-weight: 400;"> and remember to replace </span><b><i>‘example.com’ </i></b><span style="font-weight: 400;">with your domain name or public IP address. If the installation was completed successfully, you should see the home page.</span></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null" style="display: none;">http://example.com/joomla</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ol class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">http</span><span class="co1">://example.com/joomla</span></li></ol><pre style="display: none;">http://example.com/joomla</pre><div class="EnlighterJSToolbar"><a class="EnlighterJSInfoButton" title="EnlighterJS Syntax Highlighter"></a><a class="EnlighterJSRawButton" title="Toggle RAW Code"></a><a class="EnlighterJSWindowButton" title="Open Code in new Window"></a><span class="clear"></span></div></div>
+<p><a href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image4-24-e1531995119582.png"><img class="alignnone size-full wp-image-73197" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/image4-24-e1531995119582.png" alt="" srcset="https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582.png 1024w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-300x184.png 300w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-768x470.png 768w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-624x382.png 624w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-350x214.png 350w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-65x40.png 65w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-36x22.png 36w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-245x150.png 245w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-162x100.png 162w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-777x476.png 777w, https://hostadvice.com/wp-content/uploads/2018/07/image4-24-e1531995119582-500x306.png 500w" sizes="(max-width: 1024px) 100vw, 1024px"></a></p>
+<h2>Conclusion</h2>
+<p><span style="font-weight: 400;">We have accomplished installing Joomla on Ubuntu 18.04 server. You can now start posting content or probably install a new theme to make your website look more professionals. Joomla is a great content management application that you can utilize to create beautiful websites. if you have followed this guide step-by-step, your Joomla site should be up and running.</span></p>
+<h2>Check out these top 3 Joomla hosting services:</h2>
+<p><span style="font-weight: 400;"></span></p><div class="company-info-widget">
+<div class="widget-content">
+<div class="logo">
+<a href="https://hostadvice.com/hosting-company/chemicloud-reviews/" title="ChemiCloud" class="post-thumb">
+<img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/logo-6-250x53.png" alt="ChemiCloud">
+</a>
+<div class="overall-score">
+<div class="fr stars_holder  stars_holder_xl">
+<div class="full-stars" style="width: 100%;">
+</div>
+</div>
+</div>
+<div class="starting-price">
+Starting price:
+<strong class="price-num">$2.95</strong>
+</div>
+</div>
+<div class="user-scores">
+<div class="score hidden-xs">
+<i class="fas fa-shield-alt"></i>
+<label>Reliability</label>
+<strong>10</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fal fa-credit-card"></i>
+<label>Pricing</label>
+<strong>9.9</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fas fa-user"></i>
+<label>User Friendly</label>
+<strong>10</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-life-ring"></i>
+<label>Support</label>
+<strong>10</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-chart-bar"></i>
+<label>Features</label>
+<strong>9.9</strong>
+</div>
+</div>
+<div class="actions">
+<a href="https://hostadvice.com/hosting-company/chemicloud-reviews/" class="button white large">
+<i class="fal fa-comment-alt-dots"></i> Read reviews
+</a>
+<a href="https://hostadvice.com/go/host/joomla/36137" class="button orange large" target="_blank" rel="nofollow">Visit ChemiCloud</a>
+</div>
+</div>
+</div><div class="company-info-widget">
+<div class="widget-content">
+<div class="logo">
+<a href="https://hostadvice.com/hosting-company/fastcomet-reviews/" title="FastComet" class="post-thumb">
+<img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/fastcomet_320x80-250x63.png" alt="FastComet">
+</a>
+<div class="overall-score">
+<div class="fr stars_holder  stars_holder_xl">
+<div class="full-stars" style="width: 97%;">
+</div>
+</div>
+</div>
+<div class="starting-price">
+Starting price:
+<strong class="price-num">$2.95</strong>
+</div>
+</div>
+<div class="user-scores">
+<div class="score hidden-xs">
+<i class="fas fa-shield-alt"></i>
+<label>Reliability</label>
+<strong>9.7</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fal fa-credit-card"></i>
+<label>Pricing</label>
+<strong>9.6</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fas fa-user"></i>
+<label>User Friendly</label>
+<strong>9.7</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-life-ring"></i>
+<label>Support</label>
+<strong>9.8</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-chart-bar"></i>
+<label>Features</label>
+<strong>9.6</strong>
+</div>
+</div>
+<div class="actions">
+<a href="https://hostadvice.com/hosting-company/fastcomet-reviews/" class="button white large">
+<i class="fal fa-comment-alt-dots"></i> Read reviews
+</a>
+<a href="https://hostadvice.com/go/host/joomla/3955" class="button orange large" target="_blank" rel="nofollow">Visit FastComet</a>
+</div>
+</div>
+</div><div class="company-info-widget">
+<div class="widget-content">
+<div class="logo">
+<a href="https://hostadvice.com/hosting-company/a2-hosting-reviews/" title="A2 Hosting" class="post-thumb">
+<img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/a2hosting_320x80-250x63.png" alt="A2 Hosting">
+</a>
+<div class="overall-score">
+<div class="fr stars_holder  stars_holder_xl">
+<div class="full-stars" style="width: 92%;">
+</div>
+</div>
+</div>
+<div class="starting-price">
+Starting price:
+<strong class="price-num">$3.92</strong>
+</div>
+</div>
+<div class="user-scores">
+<div class="score hidden-xs">
+<i class="fas fa-shield-alt"></i>
+<label>Reliability</label>
+<strong>9.3</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fal fa-credit-card"></i>
+<label>Pricing</label>
+<strong>9.0</strong>
+</div>
+<div class="score hidden-xs">
+<i class="fas fa-user"></i>
+<label>User Friendly</label>
+<strong>9.2</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-life-ring"></i>
+<label>Support</label>
+<strong>9.2</strong>
+</div>
+<div class="score hidden-xs">
+<i class="far fa-chart-bar"></i>
+<label>Features</label>
+<strong>9.3</strong>
+</div>
+</div>
+<div class="actions">
+<a href="https://hostadvice.com/hosting-company/a2-hosting-reviews/" class="button white large">
+<i class="fal fa-comment-alt-dots"></i> Read reviews
+</a>
+<a href="https://hostadvice.com/go/host/joomla/771" class="button orange large" target="_blank" rel="nofollow">Visit A2 Hosting</a>
+</div>
+</div>
+</div><p></p>
+<div id="article-banner" data-banner="wide" class="banner_wrap"></div>
+<div class="satisfaction-bar-holder">
+<h4>Was this article helpful?</h4>
+<div class="satisfaction-bar" data-post-id="73190"><i class="fal fa-angry"></i><i class="fal fa-frown"></i><i class="fal fa-meh"></i><i class="fal fa-smile"></i><i class="fal fa-laugh"></i><div class="satisfaction-bar-result"></div><div class="hidden"><div class="satisfaction-note-holder"><label>Share your opinion with us</label><textarea name="satisfaction-note"></textarea><a class="button large orange submit-satisfaction-note" data-post-id="73190">Submit <i class="fa fa-paper-plane"></i></a></div></div></div>
+</div>
+<div class="related-articles">
+<h3>Related How-To Articles</h3>
+<ul>
+<li>
+<a href="https://hostadvice.com/how-to/how-to-setup-varnish-http-cache-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="How to Setup Varnish HTTP Cache on an Ubuntu 18.04 VPS or Dedicated Server">How to Setup Varnish HTTP Cache on an Ubuntu 18.04 VPS or Dedicated Server</a>
+<strong>expert</strong>
+</li><li>
+<a href="https://hostadvice.com/how-to/how-to-secure-phpmyadmin-on-ubuntu-18-04-vps-or-dedicated-server/" title="How to Secure phpMyAdmin on Ubuntu 18.04 VPS or Dedicated Server">How to Secure phpMyAdmin on Ubuntu 18.04 VPS or Dedicated Server</a>
+<strong>intermediate</strong>
+</li><li>
+<a href="https://hostadvice.com/how-to/how-to-edit-php-settings-in-apache-on-an-ubuntu-18-04-vps-or-dedicated-server/" title="How to Edit PHP Settings in Apache on an Ubuntu 18.04 VPS or Dedicated Server">How to Edit PHP Settings in Apache on an Ubuntu 18.04 VPS or Dedicated Server</a>
+<strong>intermediate</strong>
+</li><li>
+<a href="https://hostadvice.com/how-to/how-to-install-drush-for-drupal-on-a-centos-7-server/" title="How to Install &amp;quot;Drush&amp;quot; for Drupal on a CentOS 7 Server">How to Install "Drush" for Drupal on a CentOS 7 Server</a>
+<strong>intermediate</strong>
+</li><li>
+<a href="https://hostadvice.com/how-to/how-to-upgrade-from-ubuntu-16-04-to-ubuntu-18-04/" title="How To Upgrade From Ubuntu 16.04 To Ubuntu 18.04">How To Upgrade From Ubuntu 16.04 To Ubuntu 18.04</a>
+<strong>newbie</strong>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div id="secondary" class="col-md-3 widget-area" role="complementary">
+<div class="container_div clearfix" id="top-companies-widget">
+<h3 class="aside_top_header row">Best Web Hosting Services of May 2019</h3>
+<div class="dotted_border_aside_top row">
+<div class="col-xs-5">
+<a href="https://hostadvice.com/hosting-company/fastcomet-reviews/" title="FastComet" data-ga-event="alternatives box">
+<img class="fl" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/fastcomet_320x80-110x28.png" alt="FastComet"> </a>
+</div>
+<div class="col-xs-7">
+<div class="recommends">630 Recommended</div>
+<div class="company-rating-with_details">
+<span class="rating-number pull-right">
+9.7 </span>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 97%;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dotted_border_aside_top row">
+<div class="col-xs-5">
+<a href="https://hostadvice.com/hosting-company/siteground-reviews/" title="SiteGround" data-ga-event="alternatives box">
+<img class="fl" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/siteground_320x80-110x28.png" alt="SiteGround"> </a>
+</div>
+<div class="col-xs-7">
+<div class="recommends">2076 Recommended</div>
+<div class="company-rating-with_details">
+<span class="rating-number pull-right">
+9.7 </span>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 97%;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dotted_border_aside_top row">
+<div class="col-xs-5">
+<a href="https://hostadvice.com/hosting-company/a2-hosting-reviews/" title="A2 Hosting" data-ga-event="alternatives box">
+<img class="fl" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/a2hosting_320x80-110x28.png" alt="A2 Hosting"> </a>
+</div>
+<div class="col-xs-7">
+<div class="recommends">922 Recommended</div>
+<div class="company-rating-with_details">
+<span class="rating-number pull-right">
+9.2 </span>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 92%;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dotted_border_aside_top row">
+<div class="col-xs-5">
+<a href="https://hostadvice.com/hosting-company/chemicloud-reviews/" title="ChemiCloud" data-ga-event="alternatives box">
+<img class="fl" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/logo-6-110x23.png" alt="ChemiCloud"> </a>
+</div>
+<div class="col-xs-7">
+<div class="recommends">205 Recommended</div>
+<div class="company-rating-with_details">
+<span class="rating-number pull-right">
+10 </span>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 100%;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dotted_border_aside_top row">
+<div class="col-xs-5">
+<a href="https://hostadvice.com/hosting-company/cloudways-reviews/" title="Cloudways" data-ga-event="alternatives box">
+<img class="fl" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/cloudways_320x80-110x28.png" alt="Cloudways"> </a>
+</div>
+<div class="col-xs-7">
+<div class="recommends">352 Recommended</div>
+<div class="company-rating-with_details">
+<span class="rating-number pull-right">
+9.2 </span>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 92%;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="widget-area"><div class="widget-container"><div class="most-popular-posts-widget"><h3 class="aside_top_header row">Popular Posts</h3><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/best-web-hosting-for-small-business/">Best web hosting for small business</a></div><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/plesk-vs-cpanel/">Comparing 2017 Web Hosting Control Panels: Plesk Versus cPanel</a></div><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/dreamhost-cloud/">DreamHost Knows the Cloud is the Future of Computing</a></div><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/liquidweb-interview/">Liquid Web’s CEO encourages staff to succeed: An Interview with Jim Geiger</a></div><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/ecommerce-statistics-facts-figures/">Ecommerce Statistics, Facts, and Figures 2017</a></div><div class="most-popular-post-container"><a href="https://hostadvice.com/blog/internet-usage-facts-figures/">Internet Usage Facts and Figures 2017</a></div></div></div></div><div class="widget-area"><div class="widget-container"><div class="web-hosting-reviews-widget"><h3 class="aside_top_header row">Web Hosting Reviews</h3><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/"><i class="fa fa-trophy"></i>Best Web Hosting of 2019</a></div><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/hosting-services/shared-hosting/"><i class="fa fa-users"></i>Best Shared Hosting</a></div><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/hosting-services/vps/"><i class="far fa-hdd"></i>Best VPS Hosting</a></div><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/hosting-services/cloud-hosting/"><i class="fa fa-cloud"></i>Best Cloud Hosting</a></div><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/hosting-services/wordpress/"><i class="fab fa-wordpress"></i>Best Wordpress Hosting</a></div><div class="web-hosting-reviews-category-container"><a href="https://hostadvice.com/hosting-services/small-business-hosting/"><i class="fas fa-shopping-cart"></i>Best Small Business Hosting</a></div></div></div></div>
+<div id="sidebar-banner" data-banner="square" class="banner_wrap"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<footer id="main_footer">
+<div class="container rel">
+<div class="cogs">
+<i class="fas fa-cog fa-spin cog-first"></i>
+<i class="fas fa-cog fa-spin-reverse-slow cog-second"></i>
+</div>
+<div class="footer_content row">
+<section class="hidden-xs col-md-3 col-sm-6" id="footer-categories-col">
+<h4 class="footer_h4">Useful</h4>
+<ul class="footer_nav"><li class="menu-item"><a href="https://hostadvice.com/hosting-services/" title="Best Web Hosting Services">Best Web Hosting Services</a></li><li class="menu-item"><a href="https://hostadvice.com/tools/whois/" title="Who Is Hosting?">Who Is Hosting?</a></li><li class="menu-item"><a href="https://hostadvice.com/marketshare/" title="Web Hosting Market Share 2019">Web Hosting Market Share 2019</a></li><li class="menu-item"><a href="https://hostadvice.com/blog/" title="HostAdvice Blog">HostAdvice Blog</a></li><li class="menu-item"><a href="https://hostadvice.com/submit-web-host/" title="Submit your web host">Submit your web host</a></li><li class="menu-item"><a href="https://hostadvice.com/company-dashboard/" title="Edit your company profile">Edit your company profile</a></li><li class="menu-item"><a href="https://hostadvice.com/submit-hosting-company-review/" title="Write Review">Write Review</a></li><li class="menu-item"><a href="https://hostadvice.com/claim-web-hosting/" title="Claim Web Hosting">Claim Web Hosting</a></li></ul>
+</section>
+<section class="hidden-xs col-md-3 col-sm-6" id="footer-fyi-col">
+<h4 class="footer_h4">FYI</h4>
+<ul class="footer_nav"><li class="menu-item"><a href="https://hostadvice.com/about-us/" title="About Us">About Us</a></li><li class="menu-item"><a href="https://hostadvice.com/contact-us/" title="Contact Us">Contact Us</a></li><li class="menu-item"><a href="https://hostadvice.com/terms-of-service/" title="Terms of Service">Terms of Service</a></li><li class="menu-item"><a href="https://hostadvice.com/faq/" title="FAQ">FAQ</a></li><li class="menu-item"><a href="https://hostadvice.com/disclosure/" title="Disclosure">Disclosure</a></li><li class="menu-item"><a href="https://hostadvice.com/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li><li class="menu-item"><a href="https://hostadvice.com/human-sitemap/" title="Human Sitemap">Human Sitemap</a></li><li class="menu-item"><a href="https://hostadvice.com/guide/web-hosting-101/" title="Web Hosting 101">Web Hosting 101</a></li><li class="menu-item"><a href="https://hostadvice.com/personal-data-removal-request/" title="Personal Data Removal Request">Personal Data Removal Request</a></li></ul>
+</section>
+<section class="hidden-xs col-md-3 col-sm-6">
+<h4 class="footer_h4">Follow Us</h4>
+<ul id="menu-follow-us" class="footer_social"><li class="menu-item"><a href="https://www.facebook.com/hostadvice" title="Be a fan on facebook"><i class="fab fa-facebook-f"></i> Be a fan on facebook</a></li><li class="menu-item"><a href="https://twitter.com/hostadvicecom" title="Read us on Twitter"><i class="fab fa-twitter"></i> Read us on Twitter</a></li><li class="menu-item"><a href="https://hostadvice.com/feed/" title="RSS Feed"><i class="fa fa-rss"></i> RSS Feed</a></li></ul>
+</section>
+<section class="col-xs-12 col-md-3 col-sm-6">
+<h4 class="footer_h4">Hosting Discounts &amp; Tips</h4>
+<form class="footer_form newsletter-subscribe" data-form="footer" action="https://hostadvice.us4.list-manage.com/subscribe/post?u=02d2305689a1b47b24f90ec20&amp;id=9317e12f4a" method="post">
+<input type="hidden" name="FNAME" value="">
+<input type="hidden" name="LNAME" value="">
+<div><input type="text" name="NAME" placeholder="Full Name"></div>
+<div><input type="text" name="EMAIL" placeholder="Email">
+</div>
+<div><input type="submit" name="subscribe" value="Sign up" class="blue_button"></div>
+</form>
+</section>
+</div>
+<div id="footer-supported-languages" class="row">
+<div class="select select-large select-block col-sm-6 col-md-3">
+<select class="currency-selector">
+<option value="USD" selected="selected">
+USD
+</option>
+<option value="EUR">
+EUR
+</option>
+<option value="GBP">
+GBP
+</option>
+<option value="AED">
+AED
+</option>
+<option value="ARS">
+ARS
+</option>
+<option value="AUD">
+AUD
+</option>
+<option value="BGN">
+BGN
+</option>
+<option value="BRL">
+BRL
+</option>
+<option value="CAD">
+CAD
+</option>
+<option value="CHF">
+CHF
+</option>
+<option value="CLP">
+CLP
+</option>
+<option value="CNY">
+CNY
+</option>
+<option value="COP">
+COP
+</option>
+<option value="CZK">
+CZK
+</option>
+<option value="DKK">
+DKK
+</option>
+<option value="EGP">
+EGP
+</option>
+<option value="HKD">
+HKD
+</option>
+<option value="HUF">
+HUF
+</option>
+<option value="IDR">
+IDR
+</option>
+<option value="ILS">
+ILS
+</option>
+<option value="INR">
+INR
+</option>
+<option value="JPY">
+JPY
+</option>
+<option value="LKR">
+LKR
+</option>
+<option value="KRW">
+KRW
+</option>
+<option value="MXN">
+MXN
+</option>
+<option value="MYR">
+MYR
+</option>
+<option value="NOK">
+NOK
+</option>
+<option value="NZD">
+NZD
+</option>
+<option value="PLN">
+PLN
+</option>
+<option value="RON">
+RON
+</option>
+<option value="RUB">
+RUB
+</option>
+<option value="SAR">
+SAR
+</option>
+<option value="SEK">
+SEK
+</option>
+<option value="SGD">
+SGD
+</option>
+<option value="THB">
+THB
+</option>
+<option value="TRY">
+TRY
+</option>
+<option value="TWD">
+TWD
+</option>
+<option value="UAH">
+UAH
+</option>
+<option value="ZAR">
+ZAR
+</option>
+</select>
+</div>
+<div class="col-sm-6 col-md-3">
+</div>
+<div class="pull-right hosted-on-footer">
+<a href="https://hostadvice.com/hosting-company/fastcomet-reviews/" title="FastComet" target="_blank" rel="nofollow" data-ga-event="footer-hosted-on">
+<span>Hosted on</span>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://hostadvice.com/wp-content/themes/bestwh/img/hosted-on-fastcomet.png" class="lazy" alt="FastComet">
+</a>
+</div>
+</div>
+</div>
+<div class="footer_info">
+COPYRIGHT © 2019
+HostAdvice.com
+</div>
+<a id="force-regular-site" class="visible-xs" data-current="1">Regular Site</a>
+</footer>
+<script>
+        WebFontConfig = {
+            google: {
+                families: ['PT+Serif:400,400i,700,700i']
+            }
+        };
+
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+<div id="alternatives-popup" data-post-id="&lt;?php the_ID(); ?&gt;">
+<div class="alternatives-popup-content" data-popup-id="alternatives popup">
+<h2>
+Didn't find what you were looking for?<br>Our users recommend these brands
+</h2>
+<div class="row">
+<div class="col-xs-4" data-host-id="3955">
+<a rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/3955?altpo=" title="FastComet">
+<img data-src="https://static.hostadvice.com/wp-content/uploads/2014/12/fastcomet_320x80-250x63.png" title="FastComet" alt="FastComet" class="company-logo lazy">
+</a>
+<div class="rating-holder">
+<div class="like-unlike-holder clearfix">
+<span class="pull-left red-hand">
+15
+</span>
+<span class="pull-right green-hand">
+630
+</span>
+</div>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 97%;">
+</div>
+</div>
+</div>
+<div class="min-price">
+From
+<strong>$2.95</strong>
+/ month
+</div>
+<a class="orange_button" rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/3955?altpo=" data-ga-event="visit button" title="FastComet">
+<i class="fa fa-chevron-circle-right"></i>
+Visit FastComet
+</a>
+</div>
+<div class="col-xs-4" data-host-id="1191">
+<a rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/1191?altpo=" title="SiteGround">
+<img data-src="https://static.hostadvice.com/wp-content/uploads/2014/04/siteground_320x80-250x63.png" title="SiteGround" alt="SiteGround" class="company-logo lazy">
+</a>
+<div class="rating-holder">
+<div class="like-unlike-holder clearfix">
+<span class="pull-left red-hand">
+32
+</span>
+<span class="pull-right green-hand">
+2076
+</span>
+</div>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 97%;">
+</div>
+</div>
+</div>
+<div class="min-price">
+From
+<strong>$3.95</strong>
+/ month
+</div>
+<a class="orange_button" rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/1191?altpo=" data-ga-event="visit button" title="SiteGround">
+<i class="fa fa-chevron-circle-right"></i>
+Visit SiteGround
+</a>
+</div>
+<div class="col-xs-4" data-host-id="771">
+<a rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/771?altpo=" title="A2 Hosting">
+<img data-src="https://static.hostadvice.com/wp-content/uploads/2014/02/a2hosting_320x80-250x63.png" title="A2 Hosting" alt="A2 Hosting" class="company-logo lazy">
+</a>
+<div class="rating-holder">
+<div class="like-unlike-holder clearfix">
+<span class="pull-left red-hand">
+72
+</span>
+<span class="pull-right green-hand">
+922
+</span>
+</div>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 92%;">
+</div>
+</div>
+</div>
+<div class="min-price">
+From
+<strong>$3.92</strong>
+/ month
+</div>
+<a class="orange_button" rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/771?altpo=" data-ga-event="visit button" title="A2 Hosting">
+<i class="fa fa-chevron-circle-right"></i>
+Visit A2 Hosting
+</a>
+</div>
+<div class="col-xs-4" data-host-id="36137">
+<a rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/36137?altpo=" title="ChemiCloud">
+<img data-src="https://hostadvice.com/wp-content/uploads/2017/07/logo-6-250x53.png" title="ChemiCloud" alt="ChemiCloud" class="company-logo lazy">
+</a>
+<div class="rating-holder">
+<div class="like-unlike-holder clearfix">
+<span class="pull-left red-hand">
+0
+</span>
+<span class="pull-right green-hand">
+205
+</span>
+</div>
+<div class="fr stars_holder  ">
+<div class="full-stars" style="width: 100%;">
+</div>
+</div>
+</div>
+<div class="min-price">
+From
+<strong>$2.95</strong>
+/ month
+</div>
+<a class="orange_button" rel="nofollow" target="_blank" href="https://hostadvice.com/go/host/36137?altpo=" data-ga-event="visit button" title="ChemiCloud">
+<i class="fa fa-chevron-circle-right"></i>
+Visit ChemiCloud
+</a>
+</div>
+</div>
+</div>
+</div> <script type="text/javascript">
+            window.__lo_site_id = 136435;
+
+            (function () {
+                var wa = document.createElement('script');
+                wa.type = 'text/javascript';
+                wa.async = true;
+                wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wa, s);
+            })();
+        </script>
+<script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/OneSignalSDK.js.download" async=""></script>
+<script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "4f604db8-7343-4638-8cef-828b2ebcf16f",
+            });
+        });
+    </script>
+<link rel="stylesheet" id="technology-icons-css" href="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/technology-icons.css" type="text/css" media="all">
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/mootools-core-yc.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/EnlighterJS.min.js.download"></script>
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K9KZXTH');</script>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9KZXTH"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script type="text/javascript">
+            if ( ! window.deferAfterjQueryLoaded ) {
+                window.deferAfterjQueryLoaded = [];
+                Object.defineProperty(window, "$", {
+                    set: function(value) {
+                        window.setTimeout(function() {
+                            $.each(window.deferAfterjQueryLoaded, function(index, fn) {
+                                fn();
+                            });
+                        }, 0);
+                        Object.defineProperty(window, "$", { value: value });
+                    },
+
+                    configurable: true
+                });
+            }
+
+            window.deferAfterjQueryLoaded.push(function() {
+                jQuery(function ($) {
+                    if ($(window).width() < 768) {
+                        return false;
+                    }
+
+                    //delayed load livechat
+                    setTimeout(function () {
+                        window.__lc = window.__lc || {};
+                        window.__lc.license = 6869021;
+                        (function () {
+                            var lc = document.createElement('script');
+                            lc.type = 'text/javascript';
+                            lc.async = true;
+                            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(lc, s);
+                        })();
+                    }, 7000);
+                });
+            });
+        </script>
+<script type="text/javascript">/* <![CDATA[ */EnlighterJS_Config = {"selector":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"language":"generic","theme":"enlighter","indent":2,"hover":"hoverEnabled","showLinenumbers":true,"rawButton":true,"infoButton":true,"windowButton":true,"rawcodeDoubleclick":false,"grouping":true,"cryptex":{"enabled":false,"email":"mail@example.tld"}};!function(){var a=function(a){var b="Enlighter Error: ";console.error?console.error(b+a):console.log&&console.log(b+a)};return window.addEvent?"undefined"==typeof EnlighterJS?void a("Javascript Resources not loaded yet!"):"undefined"==typeof EnlighterJS_Config?void a("Configuration not loaded yet!"):void window.addEvent("domready",function(){EnlighterJS.Util.Init(EnlighterJS_Config.selector.block,EnlighterJS_Config.selector.inline,EnlighterJS_Config)}):void a("MooTools Framework not loaded yet!")}();;/* ]]> */</script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery-ui.min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/modernizr.min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.colorbox-min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.customSelect.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/page.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/device.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/includes.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/template.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/form.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.cookie.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/companies-search.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/date-picker.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/more.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/ratings.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/tabs.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/tooltips.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/lazyload.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/ga-events.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/newsletter-popup.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/newsletter-subscribe.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/ouibounce.min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.serialize-object.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/slider.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/script.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/companies-search.js(1).download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/img-in-colorbox.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/jquery.sticky-kit.min.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/single.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/disqus-helper.js.download"></script>
+<script type="text/javascript" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/satisfaction-bar.js.download"></script>
+
+<div id="cboxOverlay" style="opacity: 0; cursor: pointer; visibility: visible; display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none; visibility: visible; top: 2727px; left: 742px; position: absolute; width: 548px; height: 515.4px; opacity: 0;"><div id="cboxWrapper" style="height: 515.4px; width: 548px;"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left; width: 500px;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left; height: 459px;"></div><div id="cboxContent" style="float: left; width: 500px; height: 459px;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left; display: none;"></div><button type="button" id="cboxPrevious" style="display: none;"></button><button type="button" id="cboxNext" style="display: none;"></button><button id="cboxSlideshow" style="display: none;"></button><div id="cboxLoadingOverlay" style="float: left; display: none;"></div><div id="cboxLoadingGraphic" style="float: left; display: none;"></div><button type="button" id="cboxClose">close</button></div><div id="cboxMiddleRight" style="float: left; height: 459px;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left; width: 500px;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; max-width: none; display: none;"></div></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+<!-- starts T: /page-templates/partials/common/exit-popup -->
+
+<div class="hidden">
+    <div id="exit-int-pp" style="display: block;">
+        <div class="exit-int-pp-content">
+            <h2>
+                
+                Try InterServer for<br> $0.01 the First Month                
+            </h2>
+            <a href="https://hostadvice.com/go/host/1405?exit-popup" data-ga-category="exit popup" data-ga-event="click out" title="InterServer" target="_blank" rel="nofollow">
+                <img class="company-logo" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/interserver_320x80-250x63.png" alt="InterServer">
+            </a>
+            <div class="score clearfix">
+                <div class="score-numbers">
+                    <strong>9.2</strong> / 10
+                </div>
+                            <div class="fr stars_holder  ">
+                <div class="full-stars" style="width: 92%;">
+                </div>
+
+            </div>
+                                    </div>
+
+            <div class="text-score">
+                "Excellent Service"
+            </div>
+
+            <div class="users-choice">
+                Users' Choice of 2019            </div>
+
+            <div class="based-on">
+                Based on 321 User Reviews            </div>
+
+            <div class="use-coupon">
+                
+                    Use Coupon "HOSTADVICE" on InterServer and get your first month for $0.01 - with no commitment.                            </div>
+
+            <a href="https://hostadvice.com/go/host/1405?exit-popup" class="huge_blue_button" data-ga-category="exit popup" data-ga-event="click out" title="InterServer" target="_blank" rel="nofollow">
+
+                
+                    Try InterServer for $0.01                            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ends T: /page-templates/partials/common/exit-popup -->
+<iframe id="lo-cs-frame" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/saved_resource.html" aria-hidden="true" title="Lucky Orange" style="display: none !important;"></iframe><div id="LoAvailableBtn" style="padding:10px; height:auto; position:fixed;bottom:0px; right:20px;  z-index:9999; background-color: rgba(0,0,0,0.97); color: #ffffff; direction: ltr; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height:140%;;  -box-shadow: 0px 0px 5px #000; box-shadow: 0px 0px 5px #000; -webkit-box-shadow: 0px 0px 5px #000; border:2px solid #fff;  border-bottom:none; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom:none; ;cursor: pointer; ;max-width: 250; display: none;;margin-bottom:0px">Live Chat is Online&nbsp; <img id="lo_green_blinker" width="16" height="16" style="width:16px; height:16px; border:none; padding:0; margin:0; margin-left:3px;" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/blink_green.png" align="right" alt=""></div><div id="LoChatMinimizedButton" style="padding:10px; height:auto; position:fixed;bottom:0px; right:20px;  z-index:9999; background-color: rgba(0,0,0,0.97); color: #ffffff; direction: ltr; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height:140%;;  -box-shadow: 0px 0px 5px #000; box-shadow: 0px 0px 5px #000; -webkit-box-shadow: 0px 0px 5px #000; border:2px solid #fff;  border-bottom:none; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom:none; ;cursor: pointer; ;max-width: 250; display: none;;margin-bottom:0px">Chatting<div class="lo-badge" style="display: none; background-color: red; border-radius: 50%; box-shadow: black 0px 0px 5px; color: white; height: 25px; line-height: 25px; position: absolute; text-align: center; width: 25px; right: 57px; bottom: 23px;">0</div></div><div id="lo_chat_box" style="transition: cubic-bezier(0, 1, 0.5, 1) .35s; border:2px solid white; width:350px; max-width:350px; border-bottom:none; display:none; bottom:-1000px; opacity:0;  position:fixed; bottom:-1000px; ; margin-bottom: 0px ;right:20px;  z-index:999999;   background-color: #000000; background-color: rgba(49,49,49,0.97); color: #ffffff; direction: ltr; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:130%; color: #ffffff; -box-shadow: 0px 0px 5px rgba(0,0,0,0.5); box-shadow: 0px 0px 5px  rgba(0,0,0,0.5); -webkit-box-shadow: 0px 0px 5px  rgba(0,0,0,0.5);;-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; "><div onclick="LO.min_chat();" tabindex="0" id="lo_chat_top" style="color:#ffffff; background-color: #6d6d6d; background-color: rgba(64,64,64,0.97); cursor:pointer; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:13px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; "><div style="float:right; margin-top:10px; margin-right:10px; position:absolute; right:0;" id="lo_chat_min_box"><div style="cursor: pointer; float:right; margin-left:10px; opacity:0.6; font-size:1empx; font-weight:bold;" onclick="LO.end_chat();" tabindex="0" id="lo_chat_end">×</div><div style="cursor: pointer; float:right; opacity:0.6; font-size:1empx; font-weight:bold;" id="lo_chat_min">–</div><div style="clear:both"></div></div><div id="lo_operator">undefined</div><div style="clear:both"></div><div style="height:0px; width:100%; border-top:1px solid #000000;border-bottom:1px solid #4f4f4f"></div></div><div id="lo_chat_log" style="height:225px; max-height: 30vh; font-size:13px; margin-top:10px; line-height: 120%; padding:10px; overflow-y:auto; margin-bottom:10px;font-family:inherit;font-size:inherit;"></div><form action="https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/" onsubmit="LO.submit_chat(); return false;"><div id="lo_chat_input" style="position:relative; width: 100%; "><div style="height:0px; margin-bottom:0px; margin-top:0px; width:100%; border-top:1px solid #000000;border-bottom:1px solid #4f4f4f"></div><div style="padding:10px;"><label for="lo_chat_textarea" style="display:none">Chat Input Box</label><textarea id="lo_chat_textarea" disabled="disabled" rows="2" style="color: black; background-color: rgb(255, 255, 255); border-radius: 5px; padding: 7px; height: auto; width: 100%; font-family: sans-serif; text-transform: none; resize: none;" dir="null" data-last-scroll-height="0"></textarea></div><div id="lo_chat_sound_holder" style="position:absolute; right:0px; top:-25px; width:100%;"><div style="cursor: pointer; float:right; opacity:0.6; padding-right:10px; height:16px;" id="lo_chat_sound"><img alt="Click to mute chat sounds" src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/sound-on-white.png"></div><div id="lo_chat_status" style="padding-left:10px; font-size:11px; color:#6d6d6d"></div><div style="clear:both;"></div></div></div></form><div id="lo_chat_submit_btn" style="display:none; padding:10px; padding-top:0px;"><button onclick="LO.submit_chat();" type="button" style="width:100%; box-sizing: border-box; font-size: 12px;  letter-spacing:initial; text-transform:none; line-height: 1.3333333;  color: #fff;  background-color: #FFFFFF;  display: inline-block;  padding: 6px 12px;   font-weight: bold;  line-height: 1.42857143;  text-align: center;  white-space: nowrap;  vertical-align: middle;  -ms-touch-action:manipulation;  touch-action: manipulation;  cursor: pointer; outline:none; -webkit-user-select: none;  -moz-user-select: none;  -ms-user-select: none; user-select: none;  background-image: none;  background: #FFFFFF;  background-image: -webkit-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -moz-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -ms-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -o-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: linear-gradient(to bottom, #FFFFFF, #AAAAAA); -webkit-border-radius: 5;  -moz-border-radius: 5;  border-color: #868686; border-radius: 5px;  font-family: Arial; text-shadow:0px 1px 1px #FFFFFF;  color: #000000; border-width:1px; font-weight:bold; ; padding: 10px 15px 10px 15px;  text-decoration: none; min-height: 40px;  text-align: center;">Chat</button></div><div id="lo_poweredBy" style="text-align:right; margin-bottom:10px;  font-size:10px; width:100%; line-height:16px; color: #868686;">Powered by <img src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/logo-light.png" align="absmiddle" title="Lucky Orange Chat Logo" alt="Lucky Orange Chat Logo" onclick="LO.click_brand(event, &#39;chat&#39;);" style="cursor: pointer; height: 12px; width:auto; margin-right:10px; display: inline-block;" border="0"></div></div><script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/get_dynamic_config.js.download"></script><script src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/get_static_config.0.1507.18.18.962.57.33.20.21.9.8.9.8.js.download"></script><div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 281px; height: 63px; max-width: 100%; max-height: calc(100% - 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none 0s ease 0s !important;"><iframe src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/open_chat.html" allowtransparency="true" allow="autoplay" id="chat-widget" name="chat-widget" scrolling="no" role="application" aria-label="LiveChat chat widget" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; transition: none 0s ease 0s !important;"></iframe></div><iframe src="./How to Install Joomla on an Ubuntu 18.04 VPS or Dedicated Server _ HostAdvice_files/webPushAnalytics.html" style="display: none;"></iframe></body></html>
